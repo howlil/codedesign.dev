@@ -1,0 +1,250 @@
+
+body{
+    
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty{
+    position: absolute;
+    z-index: -1;
+    right: 80px;
+    top: 9px;
+    
+}           
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    padding-right: 100px;
+  }
+.navbar{
+    width: 100%;
+}  
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #010c18;
+    transition: color 0.3s;
+}
+
+nav li a:hover {
+    color: #0cc7a2;
+}
+
+.action{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: flex-end;
+   
+}
+.action button.grab {
+    background: none; /* Menghapus latar belakang tombol */
+    border: 2px solid #000; /* Mengatur border (outline) dan warna sesuai kebutuhan */
+    color: #000; /* Mengatur warna teks tombol */
+    padding: 8px 20px; /* Mengatur padding sesuai kebutuhan */
+    border-radius: 5px; /* Mengatur border-radius jika diperlukan */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .action button.grab:hover {
+    background-color: #000; /* Mengubah warna latar belakang saat tombol dihover */
+    color: #fff; /* Mengubah warna teks saat tombol dihover */
+  }
+
+  .action button.login {
+    background: none; /* Menghapus latar belakang tombol */
+    border: none; /* Menghapus border (outline) tombol */
+    color: #000; /* Mengatur warna teks tombol */
+    padding: 8px 20px; /* Mengatur padding sesuai kebutuhan */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .action button.login:hover {
+    background-color: #000; /* Mengubah warna latar belakang saat tombol dihover */
+    color: #fff; /* Mengubah warna teks saat tombol dihover */
+  }
+  
+
+   /* main section  */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 3 kolom dengan lebar yang sama */
+    grid-gap: 20px; /* Jarak antara elemen-elemen */
+    
+}
+.col-1{
+    width: 450px; 
+}
+
+.head{
+    padding-top: 70px;
+}
+.head h1 {
+    margin: 0px;
+    color: #101C45;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.capt p{
+    color: #101C45;
+
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.cta .call {
+    background-color:  #203271;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.cta .call:hover {
+    background-color: #007a6e;
+}
+
+
+.card {
+    position: absolute;
+    right: 480px;
+    top : 130px;
+    padding: 20px;
+    width: 252px;
+    height: 152px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.10);
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    gap : 10px;
+    align-items: center;
+}
+.top img {
+    max-width: 60px;
+    border-radius: 50%;
+}
+
+.top figcaption {
+    font-weight: bold;
+}
+.description p{
+    margin: 0px;;
+    color: #101C45;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.iconQ{
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+.bg{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    justify-content: end;
+}
+
+/* footer */
+
+footer{
+     position: absolute; 
+     top:670px;
+}
+.container-footer{
+    position: relative;
+    display: inline-flex;
+    padding: 40px;
+    align-items: flex-start;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.10);
+    gap: 32px;
+    background: #203271;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.section {
+    display: flex;
+    width: 359px;
+    align-items: flex-start;
+    gap: 25px;
+}
+.desc{
+    display: grid;
+    gap:  10px;
+}
+.desc h1{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+.desc p{
+    color: rgba(255, 255, 255, 0.80);
+    margin: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
