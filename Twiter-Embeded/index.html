@@ -44,5 +44,26 @@
    <div class="footer">
     <p class="">Code by <strong><i>Howlil</i></strong></p>
    </div>
+    <div class="mode">
+        <button id="themeToggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <image href="/Twiter-Embeded/src/img/nightmode.svg" x="4" y="4" width="16" height="16" id="icon"/>
+            </svg>
+        </button>
+        
+        
+        <script>
+            // JavaScript untuk mengganti tema
+            const body = document.body;
+            const themeToggle = document.getElementById('themeToggle');
+    
+            themeToggle.addEventListener('click', function() {
+                body.classList.toggle('white-theme');
+            });
+        
+        </script>
+    </div>
+
 </body>
 </html>

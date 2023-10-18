@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
@@ -7,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #141D26;
+    background:#141D26;;
 }
 .footer{
     position: absolute;
@@ -104,3 +106,57 @@ figcaption {
     }
 }
 
+/* js section */
+.mode{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+
+#themeToggle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+
+#themeToggle #icon {
+    filter: invert(var(--is-dark-theme)); /* Mengubah warna ikon sesuai dengan tema gelap atau terang */
+
+    transition: fill 0.3s;
+    -webkit-transition: fill 0.3s;
+    -moz-transition: fill 0.3s;
+    -ms-transition: fill 0.3s;
+    -o-transition: fill 0.3s;
+}
+
+
+
+
+
+
+.white-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+.white-theme .card {
+    background-color: #fff;
+}
+
+.white-theme .profile p, .white-theme .john, .white-theme .user, .white-theme .caption, .white-theme .tag {
+    color: #333;
+}
+
+.white-theme .like img {
+    filter: invert(100%);
+}
