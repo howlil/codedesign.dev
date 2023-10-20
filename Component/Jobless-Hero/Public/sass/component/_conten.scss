@@ -1,0 +1,43 @@
+@use 'mixin';
+
+
+.conten{
+    
+    text-align: center;
+    h1{ 
+        @include mixin.font-h(36px); 
+        margin : 0px auto; 
+    }
+
+    p{ 
+        @include mixin.font-p(16px,33px,rgba(0, 0, 0, 0.60));
+        width: 483px;
+        margin: 15px auto 20px;
+        
+
+    }
+
+}
+
+.cta{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap : 20px;
+
+    .btn{
+        @include mixin.btn(#001AFF,12px 17px,10px,16px);
+        color: aliceblue;
+        border: 0px;
+    }
+    .btn:hover{
+        @include mixin.animate();
+        background-color:#000000;
+    }
+    .link{
+        
+        @include mixin.font-p(16px,normal,#001AFF);
+        font-weight: 600;
+                text-decoration:underline;
+    } 
+}

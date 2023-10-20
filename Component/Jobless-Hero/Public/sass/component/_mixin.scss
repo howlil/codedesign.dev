@@ -1,0 +1,118 @@
+@mixin head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin font-h($fontsize) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: $fontsize;
+    padding: 0px;
+    margin: 0px;
+}
+
+@mixin font-p($fontsize, $lineheight, $color) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: $color;
+    font-size: $fontsize;
+    line-height: $lineheight;
+    padding: 0px;
+    margin: 0px;
+}
+
+@mixin btn($bgcolor, $padding, $radius, $fontsize) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    background-color: $bgcolor;
+    padding: $padding;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: $fontsize;
+
+}
+
+@mixin animate {
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -ms-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transform:scale(1.03) ;
+    -webkit-transform:scale(1.03) ;
+    -moz-transform:scale(1.03) ;
+    -ms-transform:scale(1.03) ;
+    -o-transform:scale(1.03) ;
+}
+
+@mixin inline-list {
+    padding: 0px;
+    margin: 0px;
+
+    li {
+        display: inline-block;
+        list-style: none;
+        padding: 0px 25px 0px 25px;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+}
+
+@mixin card ($bgcol) {
+    display: flex;
+    width: 330px;
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 8px;
+    background: $bgcol;
+    box-shadow: 0px 30px 60px 0px rgba(0, 26, 255, 0.092);
+    
+
+    .satu{
+        display: flex;
+        gap : 20px;
+        
+        .wtxt{
+            display: grid;
+            gap: 10px;
+            font-weight: 400;
+        }
+    }
+  
+    .tiga{
+        width: 329px;
+        display :flex;
+        justify-content: space-between; 
+        .salary{
+            display: flex;
+            align-items: center;
+        }
+
+        }
+
+    }
+
+@mixin icon($bgcoll){
+        background-color: $bgcoll;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;        ;
+        -webkit-border-radius: 8px        ;
+        -moz-border-radius: 8px        ;
+        -ms-border-radius: 8px        ;
+        -o-border-radius: 8px        ;
+    
+}

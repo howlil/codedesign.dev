@@ -1,0 +1,44 @@
+@use 'mixin';
+
+.header{
+    @include mixin.head();
+    padding: 25px 0px 25px 0px;     
+}
+.logo h1{
+    @include mixin.font-h(18px);
+    padding: 0px;
+    margin: 0px;
+
+}
+.navbar ul{
+    @include mixin.inline-list();
+    a{
+        @include mixin.font-p(16px,normal,rgba(0, 0, 0, 0.80));
+        
+    }   
+    a:hover{
+        @include mixin.animate();
+        color: #001AFF;
+    } 
+}
+
+
+.btnlogin{
+    @include mixin.btn(none,8px 20px,5px,16px);
+    border: 1px solid;
+    .btn-login{
+        background: none;
+        border: none;
+        padding: 2px;
+    }
+ 
+}
+.btnlogin:hover{
+    @include mixin.animate();
+    background-color:#000000;
+    border: none;
+
+    .btn-login{
+       color: white;
+    }
+}   
