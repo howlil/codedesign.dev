@@ -1,8 +1,18 @@
-/* *{
-    border: 1px solid wheat;
-} */
+
 body{
     background-color: #181818 ;
+}
+
+.con{
+   position: relative;
+   left: 240px;
+    width: 358px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+   
+    background: rgba(255, 255, 255, 0.05);
+      
 }
 .container a {
     color: white;
@@ -10,6 +20,7 @@ body{
 .icon-logo{
     width:  15px;
     padding-bottom: 13px;
+    
     
 }
 .btn:hover{
@@ -41,5 +52,56 @@ body{
 
 .nav-link:hover{
     color: #3A3AF4;
-    
+    transition: all 0.3s ease-in-out;
+   
 }
+.card{
+    width: 1006px;
+    height: 800px;
+
+    margin-top: 70px;
+    margin-bottom: 120px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.card:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.background-circle {
+    width: 1252px;
+    height: 1252px;
+  
+ position: absolute; /* Untuk mengatur posisi elemen */
+    bottom: 400px ;
+    left: 0;
+    z-index: -1; /* Untuk mengatur lapisan di belakang elemen lain */
+    border-radius: 1252px;
+    opacity: 0.5;
+    background: radial-gradient(50% 50% at 50% 50%, #3A3AF4 0%, rgba(58, 58, 244, 0.00) 100%);
+    filter: blur(150px); 
+}
+.background-circle-2 {
+    width: 1252px;
+    height: 1252px;
+  
+ position: absolute; /* Untuk mengatur posisi elemen */
+    top: 300px ;
+    left: 0;
+    z-index: -1; /* Untuk mengatur lapisan di belakang elemen lain */
+    border-radius: 1252px;
+    opacity: 0.5;
+    background: radial-gradient(50% 50% at 50% 50%, #3A3AF4 0%, rgba(58, 58, 244, 0.00) 100%);
+    filter: blur(150px); 
+}
+ 
+  
