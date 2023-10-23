@@ -1,3 +1,6 @@
+/* *{
+    border: 1px solid wheat;
+} */
 body{
     background-color: #181818 ;
 }
@@ -9,16 +12,34 @@ body{
     padding-bottom: 13px;
     
 }
-.btn{
+.btn:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.login{
     border: 1px solid rgb(255, 255, 255);
     color: white;
 }
+
+.costom{
+    background-color: #3A3AF4;
+    color: white;
+}
 .btn:hover{
-    background:#9d35fe;
+    background:#3A3AF4;
     color: white;
 
 }
+
 .nav-link:hover{
-    color: #9d35fe;
+    color: #3A3AF4;
     
 }
