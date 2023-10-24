@@ -14,7 +14,7 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 <p style="color:green "></p>
 | Nama Proejct        | Level        | Status     | Demo                                                 |     Source Design       |
 |---------------------|--------------|------------|------------------------------------------------------|------------------------ |
-| Twitter Embed       | Beginner     | <p style="color:green ">Done </p>       | [Demo ](link-demo-1)                                 | [Source](https://codedesign.dev/challenge/twitter-embed) |
+| Twitter Embed       | Beginner     |          | [Demo ](link-demo-1)                                 | [Source](https://codedesign.dev/challenge/twitter-embed) |
 | Holadok             | Easy         | Done       | [Demo ](https://holadok-howlils-projects.vercel.app/)| [Source](https://codedesign.dev/challenge/holadok) |
 | Nowted Hero         | Intermediate | Done           | [Demo ](https://nowted-howlils-projects.vercel.app/) | [Source](https://codedesign.dev/challenge/nowted) |
 | Jobless             | Intermediate | Done           | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/jobless) |
@@ -26,6 +26,8 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 | Swiftship           | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
 
 ## Type : Pages
+| Nama Proejct        | Level        | Status     | Demo                                                 |     Source Design       |
+|---------------------|--------------|------------|------------------------------------------------------|------------------------ |
 | Al Nasr             | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
 | DressLy             | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
 | Team Collaboration  | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
@@ -38,21 +40,7 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 | Bubble Bash           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
 | Edufree           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
 | Bertumbuh           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
-| Swiftship           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
+
 
 ## Type : App
 | Chat Flow           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/chatFlow) |
