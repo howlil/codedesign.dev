@@ -69,5 +69,7 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
  
 
 ## Type : App
-| Chat Flow           | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/chatFlow) |
-| Nowtwed App         | Advanced     | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/chatFlow) |
+| Nama Proejct        | Level        | Status     | Demo                                                 |     Source Design       |
+|---------------------|--------------|------------|------------------------------------------------------|------------------------|
+| Chat Flow           | Intermediate |            |[Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/chatFlow) |
+| Nowtwed App         | Advanced     |            |[Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/chatFlow) |
