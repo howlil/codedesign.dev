@@ -12,11 +12,16 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 
 ## Type : Component
 
-| Nama Proejct        | Level        | Demo                                   | Source Design       |
-|---------------------|--------------|----------------------------------------|-------------------|
-| Twitter Embed       | Beginner     | [Demo ](link-demo-1)                   | [Source](https://codedesign.dev/challenge/twitter-embed) |
-| Holadok             | Easy         | [Demo ](link-demo-2)                   | [Source](https://codedesign.dev/challenge/holadok) |
-| Nowted Hero         | Intermediate | [Demo ](https://slicingui.vercel.app/) | [Source](https://codedesign.dev/challenge/nowted) |
-| Jobless             | Intermediate | [Demo ](https://slicingui.vercel.app/) | [Source](https://codedesign.dev/challenge/jobless) |
-| Testimonial         | Intermediate | [Demo ](https://slicingui.vercel.app/) | [Source](https://codedesign.dev/challenge/testimoni) |
+| Nama Proejct        | Level        | Demo                                                 |     Source Design       |
+|---------------------|--------------|------------------------------------------------------|-------------------|
+| Twitter Embed       | Beginner     | [Demo ](link-demo-1)                                 | [Source](https://codedesign.dev/challenge/twitter-embed) |
+| Holadok             | Easy         | [Demo ](https://holadok-howlils-projects.vercel.app/)| [Source](https://codedesign.dev/challenge/holadok) |
+| Nowted Hero         | Intermediate | [Demo ](https://nowted-howlils-projects.vercel.app/) | [Source](https://codedesign.dev/challenge/nowted) |
+| Jobless             | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/jobless) |
+| Testimonial         | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/testimoni) |
+| Kourse              | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/kourse) |
+| Digidaw             | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/digidaw) |
+| Profile Hover       | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/profile-hover) |
+| Comment             | Intermediate | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/comment) |
+
 
