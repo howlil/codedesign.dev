@@ -10,7 +10,7 @@ body{
 }
 .main{
     width: 653px;
-  margin: 70px auto 120px;
+  margin: 120px auto 150px;
   
     
     
@@ -28,8 +28,9 @@ body{
 
 }
 .card-container{
+   
     display: flex;
-    justify-content: space-between;
     gap: 30px;
+    justify-content: space-between;
 }
 
