@@ -19,7 +19,7 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 | Twitter Embed       | Beginner     | Done       | [Demo ](https://twittercardslicing.netlify.app/)     | [Source](https://codedesign.dev/challenge/twitter-embed) |
 | Holadok             | Easy         | Done       | [Demo ](https://holadok-howlils-projects.vercel.app/)| [Source](https://codedesign.dev/challenge/holadok) |
 | Nowted Hero         | Intermediate | Done       | [Demo ](https://nowted-howlils-projects.vercel.app/) | [Source](https://codedesign.dev/challenge/nowted) |
-| Jobless             | Intermediate | Done       | [Demo ](https://jobless-ochre.vercel.app/)           | [Source](https://codedesign.dev/challenge/jobless) |
+| Jobless             | Intermediate | Done       | [Demo ](https://wd-slicing-ui.vercel.app/)           | [Source](https://codedesign.dev/challenge/jobless) |
 | Testimonial         | Intermediate | Done       | [Demo ](https://testimonial-apge.netlify.app/)       | [Source](https://codedesign.dev/challenge/testimoni) |
 | Kourse              | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/kourse) |
 | Digidaw             | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/digidaw) |
