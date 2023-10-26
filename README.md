@@ -20,7 +20,7 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 | Holadok             | Easy         | Done       | [Demo ](https://holadok-howlils-projects.vercel.app/)| [Source](https://codedesign.dev/challenge/holadok) |
 | Nowted Hero         | Intermediate | Done       | [Demo ](https://nowted-howlils-projects.vercel.app/) | [Source](https://codedesign.dev/challenge/nowted) |
 | Jobless             | Intermediate | Done       | [Demo ](https://jobless-ochre.vercel.app/)           | [Source](https://codedesign.dev/challenge/jobless) |
-| Testimonial         | Intermediate | Done       | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/testimoni) |
+| Testimonial         | Intermediate | Done       | [Demo ](https://testimonial-apge.netlify.app/)       | [Source](https://codedesign.dev/challenge/testimoni) |
 | Kourse              | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/kourse) |
 | Digidaw             | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/digidaw) |
 | Profile Hover       | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/profile-hover) |
