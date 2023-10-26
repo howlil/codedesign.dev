@@ -1,0 +1,11 @@
+@use 'mixin';
+
+
+header{
+    padding-top: 30px;
+    @include mixin.flex();
+    .logo{
+        @include mixin.fonth(1em);
+        color: aliceblue;
+    }
+}

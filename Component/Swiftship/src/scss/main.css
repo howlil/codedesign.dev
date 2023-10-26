@@ -1,0 +1,207 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #3757FF;
+  height: 220px;
+  padding: 70px 70px 10px 70px;
+  border-radius: 30px 30px 0px 0px;
+  -webkit-border-radius: 30px 30px 0px 0px;
+  -moz-border-radius: 30px 30px 0px 0px;
+  -ms-border-radius: 30px 30px 0px 0px;
+  -o-border-radius: 30px 30px 0px 0px;
+}
+footer section {
+  height: 220px;
+}
+footer section h1 {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-bottom: 16px;
+}
+footer section p {
+  font-weight: 400;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 25px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 220px;
+}
+main .col-1 .title {
+  padding-top: 90px;
+}
+main .col-1 .title h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 52px;
+  padding-bottom: 15px;
+}
+main .col-1 .title p {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 25px;
+  padding-bottom: 60px;
+}
+main .col-1 .btn-sec {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+main .col-1 .btn-sec button {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #3757FF;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  color: whitesmoke;
+  font-weight: 400;
+}
+main .col-1 .btn-sec button:hover {
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  background-color: #0a229a;
+}
+main .col-1 .btn-sec .track {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+}
+main .col-1 .btn-sec .track p {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+main .col-1 .btn-sec .track:hover {
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+main .col-2 img {
+  position: absolute;
+}
+main .col-2 #item6 {
+  z-index: 1;
+  top: 90px;
+  right: 410px;
+}
+main .col-2 #item5 {
+  z-index: 2;
+  top: 92px;
+  right: 405px;
+  width: 80px;
+}
+main .col-2 #item4 {
+  z-index: 2;
+  top: 192px;
+  right: 430px;
+}
+main .col-2 #item2 {
+  z-index: -9;
+  width: 510px;
+  top: 130px;
+  right: 110px;
+}
+main .col-2 #item1 {
+  top: 200px;
+  right: 250px;
+}
+main .col-2 #item3 {
+  top: 310px;
+  right: 322px;
+}
+main .col-2 #item8 {
+  top: 390px;
+  right: 400px;
+}
+main .col-2 #item9 {
+  top: 372px;
+  right: 382px;
+}
+main .col-2 #item10 {
+  top: 350px;
+  right: 360px;
+}
+main .col-2 #item7 {
+  top: 407px;
+  right: 416px;
+}
+
+header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+header .logo {
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+body {
+  background: #1A1A1A;
+  margin: 0px;
+}
+
+.container {
+  height: 1024px;
+  max-width: 1000px;
+  margin: 0px auto;
+}/*# sourceMappingURL=main.css.map */

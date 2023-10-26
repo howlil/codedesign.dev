@@ -1,0 +1,16 @@
+header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+header .logo {
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}

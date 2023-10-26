@@ -1,0 +1,112 @@
+@use 'mixin';
+
+main{
+    @include mixin.grid();
+    padding-bottom: 220px;
+    .col-1{
+        .title{
+            padding-top: 90px;
+            h1{
+                @include mixin.fonth(32px);
+                color: white;
+                line-height: 52px;
+                padding-bottom: 15px
+            }
+            p{
+                @include mixin.fontp(14px);
+                color: rgba(255, 255, 255, 0.60);
+                line-height: 25px;
+                padding-bottom: 60px;
+            }
+
+        }
+
+        .btn-sec{
+            @include mixin.flex();
+            justify-content: flex-start;
+            gap:60px;
+            button{
+                @include mixin.btn(#3757FF,12px 20px, 10px ,16px);
+                border: none;
+                color: whitesmoke;
+                font-weight: 400
+            }
+            button:hover{
+                @include mixin.animate();
+                background-color: #0a229a;
+            }
+            .track{
+                @include mixin.flex();
+                gap: 15px; 
+
+                p{
+                    @include mixin.fontp(16px);
+                    color: aliceblue;
+                }
+
+            }
+            .track:hover{
+                @include mixin.animate();  
+                
+            }
+        }
+   
+
+    }
+
+    .col-2{
+
+        img{
+            position: absolute;
+        }
+        #item6{
+            z-index: 1;
+            top:90px;
+            right: 410px;
+        }
+        #item5{
+            z-index: 2;
+            top:92px;
+            right: 405px;
+            width: 80px;
+        }
+        #item4{
+            z-index: 2;
+            top:192px;
+            right: 430px;
+        }
+        #item2{
+            z-index:-9 ;
+            width: 510px;
+            top:130px;
+            right:110px;
+        }
+        #item1{
+            top:200px;
+            right:250px;
+        }
+        #item3 {
+            top:310px;
+            right:322px;
+        }
+        #item8 {
+            top:390px;
+            right:400px;
+        }
+
+        #item9 {
+            top:372px;
+            right:382px;
+        }
+        #item10 {
+            top:350px;
+            right:360px;
+        }
+        #item7 {
+            top:407px;
+            right:416px;
+        }
+
+
+    }
+}
