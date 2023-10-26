@@ -68,7 +68,7 @@
 
 @mixin card ($bgcol) {
     display: flex;
-    width: 330px;
+    width: 300px;
     padding: 25px;
     flex-direction: column;
     align-items: flex-start;
@@ -90,7 +90,7 @@
     }
   
     .tiga{
-        width: 329px;
+        width: 290px;
         display :flex;
         justify-content: space-between; 
         .salary{
