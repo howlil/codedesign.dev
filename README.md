@@ -25,7 +25,7 @@ I followed this challenge code from the website https://codedesign.dev/ There ar
 | Digidaw             | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/digidaw) |
 | Profile Hover       | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/profile-hover) |
 | Comment             | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/comment) |
-| Swiftship           | Intermediate |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
+| Swiftship           | Intermediate | Done       | [Demo ](https://swiftship-howlil.netlify.app/)       | [Source](https://codedesign.dev/challenge/swiftship) |
 | Music Player        | Advanced     |            | [Demo ](https://slicingui.vercel.app/)               | [Source](https://codedesign.dev/challenge/swiftship) |
 
 ## Type : Pages
