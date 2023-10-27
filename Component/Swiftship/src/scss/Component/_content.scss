@@ -60,18 +60,18 @@ main{
             position: absolute;
         }
         #item6{
-            z-index: 1;
+            z-index: -1;
             top:90px;
             right: 410px;
         }
         #item5{
-            z-index: 2;
+            z-index: 0;
             top:92px;
             right: 405px;
             width: 80px;
         }
         #item4{
-            z-index: 2;
+            z-index: 0;
             top:192px;
             right: 430px;
         }

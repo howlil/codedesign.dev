@@ -96,18 +96,18 @@ main .col-2 img {
   position: absolute;
 }
 main .col-2 #item6 {
-  z-index: 1;
+  z-index: -1;
   top: 90px;
   right: 410px;
 }
 main .col-2 #item5 {
-  z-index: 2;
+  z-index: 0;
   top: 92px;
   right: 405px;
   width: 80px;
 }
 main .col-2 #item4 {
-  z-index: 2;
+  z-index: 0;
   top: 192px;
   right: 430px;
 }

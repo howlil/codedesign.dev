@@ -1,3 +1,18 @@
+@mixin block-list {
+    padding: 0px;
+    margin: 0px;
+
+    li {
+        list-style: none;
+        padding: 0px 25px 0px 25px;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+}
 // font
 
 @mixin fonth($fontsize) {
